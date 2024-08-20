@@ -1,5 +1,5 @@
-```
-graph TD;
+```mermaid
+graph TD; 
     A[Start] --> B[Prepare API Key];
     B --> C[Set API Endpoint];
     C --> D[Compose Request Payload];
