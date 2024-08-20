@@ -1,4 +1,4 @@
-graph TD
+```graph TD
     A[Start] --> B[Prepare API Key]
     B --> C[Set API Endpoint]
     C --> D[Compose Request Payload]
@@ -8,3 +8,4 @@ graph TD
     F -->|Failure| H[Handle Error]
     G --> I[End]
     H --> I[End]
+```
